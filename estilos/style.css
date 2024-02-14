@@ -26,6 +26,10 @@ header a {
     text-decoration: none;
 }
 
+header a:hover {
+    color: #e22810;
+}
+
 #Início {
     display: flex;
     align-items: center;
@@ -47,18 +51,35 @@ h1, h2 {
 }
 
 .botao {
+    display: inline-block;
+    text-align: center;
     background-color: #FF725E;
     border-radius: 8px;
     color: #FFFFFF;
     padding: 16px 32px;
     text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.botao:hover {
+    background-color: #FFFFFF;
+    border: solid 1px #FF725E;
+    color: #FF725E;
 }
 
 .botao-transparente {
+    display: inline-block;
+    text-align: center;
     background-color: transparent;
     color: #FF725E;
     padding: 16px 32px;
     text-underline-offset: 4px;
+}
+
+.botao-transparente:hover {
+    font-weight: bolder;
+    border: solid 1px #FF725E;
+    border-radius: 8px;
 }
 
 .absoluto {
